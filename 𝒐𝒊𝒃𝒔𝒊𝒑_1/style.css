@@ -1,0 +1,125 @@
+/*-------------This is css header file for the coffee shop landing page--------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------background css--------------*/
+body{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  max-width: 1180px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*--------------------logo css-----------------*/
+.logo{
+  font-size: 40px;
+  color: #fff;
+}
+.navbar-menu a{
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navbar-menu a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/*----------------------- description styling---------------------------------------*/
+.description{
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+}
+
+/*--------------------description h1------------------------------------------- */
+.description h2{
+  font-size: 30px;
+  font-family: 'Great Vibes',sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+/*--------------------description h2------------------------------------------- */
+.description h1{
+  font-size: 35px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 70px;
+}
+
+/*--------------------description p------------------------------------------- */
+.description p{
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+/*--------------------find your taste button---------------------------------- */
+.description button{
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 0.7px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.description button:hover{
+  background: #fff;
+  color: #000;
+}
+
+/*--------------------footer part------------------------------------------- */
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+/*-----------------copyright section---------------------------------------------*/
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 150;
+  margin-top: 562px;
+}

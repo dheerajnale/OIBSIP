@@ -1,0 +1,260 @@
+<!--Personal Portfolio- Internship Task at Oasis Infobyte by Dheeraj Nale-->
+
+<!--HTML Header-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X=UA-Compatible" content="IE-edge">
+        <meta name="veiwport" content=""width=device-width, initial-scale="1.0">
+        <title> My Portfolio </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f1ebf43d75.js" crossorigin="anonymous"></script>
+    </head>
+<!--Header Finished-->
+
+
+<!--|1|Body of HTML Webpage-->
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="media/dnlogo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hello, I'm <span>Dheeraj Nale</span><br>from Pune, Maharashtra</h1>
+                </div>
+            </div>
+        </div>
+
+    
+<!----|2|About section---->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="media/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>☛I am skilled, dedicated, and open-minded individual.<br>
+                            ☛Skills to get across to people and adjust to changes with ease.<br> 
+                            ☛Believe that a person should work on developing their professional skills and learning new things all the time.<br>
+                            ☛Currently, I am intern at Oasis Infobyte and looking for new career opportunities in web development feild.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+<!--skills section-->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX Design</span><br>Designing various kind of Interfaces</li>
+                                <li><span>Web Development</span><br>Design & Develop WebPages</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+
+<!--experience section-->
+                        <div class="tab-contents"  id="experience">
+                            <ul>
+                                <li><span>Currently</span><br>Intership Trainee at Oasis Infobyte</li>
+                                <li><span></span><br></li>
+                                <li><span></span><br></li>
+                            </ul>
+                        </div>
+
+<!--education section-->
+                        <div class="tab-contents"  id="education">
+                            <ul>
+                                <li><span>2016</span><br>10th Pass from SSEMS, Phaltan</li>
+                                <li><span>2017-18</span><br>HSE from The Vatsalya School, Pune</li>
+                                <li><span>2021-24</span><br>BE Computer Engineering from PVGCOET, Pune</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<!--|3|services section-->
+        
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+
+<!--service1-->
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Having a great skills to create as well as recreate websites for small, medium, and large enterprises.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+<!--service2-->
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Specialized in creating beautiful & smooth UI/UX Designs that provide better user experience.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+<!--service3-->
+                    <div>
+                        <i class="fa-brands fa-adn"></i>
+                        <h2>App Design</h2>
+                        <p>Knowledge to create perfect look & feel of mobile apps consisting of good quality user interface and user experience elements.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--|4|Portfolio section-->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+
+<!--work1-->
+                    <div class="work">
+                        <img src="media/portfoilio33.jpg">
+                        <div class="layer">
+                            <h3>Personal Portfolio</h3>
+                            <p>Created a personal portfolio with CSS and HTML with wide range of work and skills and various elements.</p>
+                            <a href="https://github.com/dheerajnale/OIBSIP"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+<!--work2-->
+                    <div class="work">
+                        <img src="media/todo222.jpg">
+                        <div class="layer">
+                            <h3>To-Do WebApp</h3>
+                            <p>Developed a to-do app that enables a user to add daily tasks & user can mark a task “complete” upon its successful completion.</p>
+                            <a href="https://github.com/dheerajnale/OIBSIP"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+<!--work3-->
+                    <div class="work">
+                        <img src="media/nasa app22.png">
+                        <div class="layer">
+                            <h3>Nasa App Redesign</h3>
+                            <p>Created a redesign of an app 'NASA' using Pencil Tool & 'Tkinter Library' in Python.</p>
+                            <a href="https://github.com/dheerajnale/nasa_appRedesign"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+<!--see more link-->
+                <a href="https://github.com/dheerajnale" class="btn">See More</a>
+            </div>
+        </div>
+
+<!--|5|contact page (email,phone no)-->
+
+        <div id="contact">
+            <div class ="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>20110066@pvgcoet.ac.in</p>
+                        <p><i class="fas fa-phone-square-alt"></i> +91 xxxxx xxxxx</p>
+
+<!--social links icons and links-->
+                        <div class="social-icons">
+                            <a href="https://facebook.com/xyz"><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/dheerajnale"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/nale-dheeraj/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+<!--download cv button-->
+                        <a href="media/DheerajNaleResume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+<!--submit form-->
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name Here" required>
+                            <input type="email" name="Email" placeholder="Enter Valid Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+<!--|6|copyright lines-->
+            <div class="copyright">
+                <p>Build By Dheeraj. <br>Copyright @ 2023 Dheeraj Nale. All rights reserved.</p>
+            </div>
+        </div>
+
+<!--javascript file-->
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFZWzZBIgRes5mea1g7DEQyDdl5NJz35NBj9zVfFOKsgKvTT2-nWryx6BaEx0nDoM/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>
